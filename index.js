@@ -75,15 +75,15 @@ function Order() {
     let discount = (age < 18 || age >60) ? originalTotal * 0.1:0;
     let total = originalTotal + tip - discount;
 
-    console.log(`Hello ${name}!
+      alert(`Hello ${name}!
 You ordered ${quantity} ${yourOrder}(s).
 Original total: $${originalTotal.toFixed(2)}
 Discount: $${discount.toFixed(2)}
 Tip: $${tip.toFixed(2)}
 Total with Tip: $${total.toFixed(2)}
 Split between ${quantity} people: $${(total / quantity).toFixed(2)} each`);
-    
-     alert(`Hello ${name}!
+
+    console.log(`Hello ${name}!
 You ordered ${quantity} ${yourOrder}(s).
 Original total: $${originalTotal.toFixed(2)}
 Discount: $${discount.toFixed(2)}
