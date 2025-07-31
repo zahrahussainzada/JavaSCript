@@ -82,6 +82,14 @@ Discount: $${discount.toFixed(2)}
 Tip: $${tip.toFixed(2)}
 Total with Tip: $${total.toFixed(2)}
 Split between ${quantity} people: $${(total / quantity).toFixed(2)} each`);
+    
+     alert(`Hello ${name}!
+You ordered ${quantity} ${yourOrder}(s).
+Original total: $${originalTotal.toFixed(2)}
+Discount: $${discount.toFixed(2)}
+Tip: $${tip.toFixed(2)}
+Total with Tip: $${total.toFixed(2)}
+Split between ${quantity} people: $${(total / quantity).toFixed(2)} each`);
 }
 
 if(userName=='user' && password==1234)
